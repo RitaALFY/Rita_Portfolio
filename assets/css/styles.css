@@ -90,7 +90,8 @@ the website in dark mode
 
 /*======== classes css reutisable=========*/
 .container {
-    max-width: 1120px;
+   /* max-width: 1120px;*/
+    max-width: 90%;
     /* margin-inline: 1.5rem;*/
 }
 
@@ -653,6 +654,49 @@ the website in dark mode
     cursor: pointer;
 }
 
+#skills {
+    background-color: var(--shadow-color);
+    padding: 4rem 0; 
+  }
+  
+  .skills-title {
+    text-align: center; 
+    margin-bottom: 2rem; 
+  }
+  
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    list-style: none;
+    padding: 0;
+  }
+  
+  .skills-list li {
+    margin: 0 1rem 2rem; /* Espacement entre les logos */
+  }
+  
+  .skills-img {
+    width: 100px; 
+    height: auto;
+    margin-bottom: 20px; 
+  }
+  
+  /* Styles pour les dispositifs de taille moyenne et supérieure */
+  @media screen and (min-width: 768px) {
+    .skills-list li {
+      margin: 0 2rem 2rem; /* Espacement plus grand entre les logos */
+    }
+  }
+  
+  /* Styles pour les dispositifs de grande taille */
+  @media screen and (min-width: 1150px) {
+    .skills-list li {
+      margin: 0 3rem 2rem; /* Espacement encore plus grand entre les logos */
+    }
+  }
+  
+
 /* ACTIVE MODAL*/
 .active-modal {
     opacity: 1;
@@ -704,8 +748,11 @@ the website in dark mode
 .work__title {
     margin-bottom: .25rem;
     font-style: italic;
+    text-align: justify;
 }
-
+.work__subtitle{
+    text-align: justify;
+}
 .work__page {
     padding-bottom: 4rem;
 }
