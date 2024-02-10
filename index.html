@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="assets/img/logo.gif" type="">
+    <!--remixicons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--swiper css-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!--css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <title>Portfolio Rita ATMAJA ALFY</title>
+</head>
+
+<body>
+    <!--Header-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">Rita</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+                   
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services&Skills</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work-section" class="nav__link">Portfolio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="about.html" class="nav__link">About me</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="contact.html" class="button">Contact</a>
+                    </li>
+                </ul>
+                <!--close button-->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__actions">
+                <!--theme button -->
+                <i class="ri-moon-line change-theme" id="theme-button"></i>
+                <!--toggle button-->
+                <div class="nav__toggle" id="nav-toggle">
+                    <!--<i class="ri-menu-4-line"></i>-->
+                    <i class="ri-apps-line"></i>
+                </div>
+            </div>
+
+            </div>
+        </nav>
+    </header>
+    <!-- MAIN-->
+    <main class="main">
+        <!-- HOME-->
+        <section class="home section">
+            <div class="home__rectangle"></div>
+
+            <div class="home__container container grid">
+                <div class="home__perfil perfil">
+                    <div class="perfil__content">
+                        <img src="assets/img/logo3.png" alt="" class="perfil__img " style="width: 180px; height: auto;">
+                    </div>
+                </div>
+                <div class="home__content grid">
+                    <div class="home__data grid">
+                        <!--
+                        <h1 class="home__name">Rita Atmaja Alfy</h1>
+                        <h2 class="home__profession">Web Developer</h2>
+                       -->
+                        <div class="bio__container ">
+                            <h4>Hello 👋 C'est moi </h4>
+                            <div class="aboutMe pt-1">
+
+                                <div class="animation">
+                                    <div class="first">
+                                        <h1>Rita ATMAJA ALFY</h1>
+                                    </div>
+                                    <div class="second">
+                                        <h1>Développeuse web</h1>
+                                    </div>
+                                    <div class="third">
+                                        <h1> & web mobile</h1>
+                                    </div>
+                                </div>
+                                <p class="mb-3"> <em>Je suis passionnée par le développement web et je m'efforce
+                                        constamment d'apprendre et de
+                                        relever de
+                                        nouveaux défis.</em> </p>
+
+                            </div>
+                        </div>
+
+                        <div class="home__social">
+                            <a href="https://www.linkedin.com/in/ritaatmajaalfy/" target="_blank"
+                                class="home__social-link"><i class="ri-linkedin-box-fill"></i></a>
+                            <a href="https://github.com/RitaAlfy" target="_blank" class="home__social-link"><i
+                                    class="ri-github-fill"></i></a>
+                        </div>
+                    </div>
+                    <a href="assets/pdf/CV_Rita_ATMAJA_ALFY.pdf" download="" class="home__button button">CV</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!--================= SERVICES==================-->
+        <section class="services section" id="services">
+            <h2 class="section__title">Mes services </h2>
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-code-s-slash-fill services__icon"></i>
+                    <h2 class="services__title">Front end</h2>
+                    <p class="services__description">
+                        Création d'interfaces esthétiques,<br> réactives et performantes pour une expérience utilisateur
+                        exceptionnelle</p>
+                    <button class="services__button button">Voir plus</button>
+
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-circle-fill services__modal-close"></i>
+                            <h2 class="services__modal-title">Front End</h2>
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    creation des sites professionels et modernes selon les besoin des clients
+                                </li>
+                                <li class="services__modal-item">
+                                    faire (maquettes) design pour votre site selon UX
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+                <article class="services__card">
+                    <i class="ri-parentheses-fill services__icon"></i>
+                    <h2 class="services__title">Back end</h2>
+                    <p class="services__description">
+                        Développement robuste et sécurisé, gestion efficace des données, et création de fonctionnalités
+                        puissantes pour des applications performantes.</p>
+                    <button class="services__button button">Voir plus</button>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="ri-close-circle-fill services__modal-close"></i>
+                            <h2 class="services__modal-title">Back End</h2>
+                            <ul class="services__modal-list grid">
+                                <li class="services__modal-item">
+                                    Conception, admin et gerer les bases de données </li>
+                                <li class="services__modal-item">
+                                    Implémentation de mesures de sécurité pour protéger les données
+                                    sensibles. </li>
+                                <li class="services__modal-item">API REST creation api et gerer la platforme.</li>
+                                <li class="services__modal-item">développement de Fonctionnalités Avancées pour répondre
+                                    aux besoins spécifiques du projet</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </article>
+            </div>
+
+        </section>
+        <!--================SKILLS====================-->
+        <section class=" skills-section">
+            <div class="skills__container  container grid">
+                <h3 class="skills-title">Hards Skills</h3>
+                <div class="skills-content grid">
+                    <img src="assets/img/html.png" alt="image" class="skills-img" style="width: 100px; height: auto;">
+                    <img src="assets/img/css.png" alt="image" class="skills-img" style="width: 100px; height: auto;">
+                    <img src="assets/img/sas.png" alt="image" class="skills-img" style="width: 100px; height: auto;">
+                    <img src="assets/img/js.png" alt="image" class="skills-img" style="width: 130px; height: auto;">
+                    <img src="assets/img/symfony.png" alt="image" class="skills-img" style="width: 150px; height: auto;">
+                    <img src="assets/img/git.png" alt="image" class="skills-img" style="width: 130px; height: auto;">
+                    <img src="assets/img/bash.png" alt="image" class="skills-img" style="width: 90px; height: auto;">
+                    <img src="assets/img/sql.png" alt="image" class="skills-img" style="width: 120px; height: auto;">
+                    <img src="assets/img/angular.png" alt="image" class="skills-img" style="width: 90px; height: auto;">
+                    <img src="assets/img/php.png" alt="image" class="skills-img" style="width: 100px; height: auto;">
+                    <img src="assets/img/mysql.png" alt="image" class="skills-img" style="width: 130px; height: auto;">
+                    <img src="assets/img/figma.png" alt="image" class="skills-img" style="width: 130px; height: auto;">
+                    <img src="assets/img/WampServer-logo.png" alt="image" class="skills-img" style="width: 90px; height: auto;">
+                    <img src="assets/img/wp.png" alt="image" class="skills-img" style="width: 100px; height: auto;">
+
+                </div>
+        </section>
+
+        <!-- ===================WORK=====================-->
+        <section class="work section" id="work-section">
+            <h2 class="section__title">Mes Projets<br> Personnels </h2>
+            <div class="work__container container grid">
+
+                <article class="work__card">
+                    <a href="projets/alyf/index.html" class="work__link">
+                        <img src="assets/img/homecapture.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+                    <h2 class="work__title">Site ALYF</h2>
+                    <span class="work__subtitle">Symfony/API/Angular</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="projets/angular/index.html" class="work__link">
+                        <img src="assets/img/apiangular.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+                    <h2 class="work__title">Rick & Morty</h2>
+                    <span class="work__subtitle">Angular&API RESET</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="projets/site-vitrine/index.html" class="work__link">
+                        <img src="assets/img/siteVoyage.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+                    <h2 class="work__title"> Travel Agency</h2>
+                    <span class="work__subtitle">website static</span>
+                </article>
+
+                <article class="work__card">
+                    <a href="projets/wp/index.html" class="work__link">
+                        <img src="assets/img/plugin.png" alt="image" class="work__img">
+                        <i class="ri-arrow-right-circle-line work__icon"></i>
+                    </a>
+                    <h2 class="work__title">Lullaby groupe</h2>
+                    <span class="work__subtitle">wordpress</span>
+                </article>
+            </div>
+
+        </section>
+
+
+
+        <!--==========CONTACT=================-->
+        <section class="contact section">
+            <div class="contact__container container grid">
+                <h2 class="section__title">Restons en contact!</h2>
+                <a href="contact.html" class="contact__button button">Me contacter</a>
+            </div>
+        </section>
+    </main>
+    <!--=============FOOTER==============-->
+    <footer class="footer" id="footer">
+        <div class="footer__container container grid">
+            <div class="footer__content grid">
+                <a href="index.html" class="footer__logo">Rita</a>
+                <ul class="footer__links">
+                    <li>
+                        <a href="about.html" class="footer__link">About me</a>
+                    </li>
+
+                    <li>
+                        <a href="work.html" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html" class="footer__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="footer__social">
+                    
+                    <a href="https://www.linkedin.com/in/ritaatmajaalfy/" target="_blank" class="footer__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+                    <a href="https://github.com/RitaAlfy" target="_blank" class="footer__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+
+            <span class="footer__copy">
+                &copy; 2024 Rita. All rights reserved.
+            </span>
+        </div>
+
+    </footer>
+    <!--==============SCROLL UP==================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+    <!--scripts-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <script src="assets/js/index.js"></script>
+
+    <!--<script src="assets/js/contact.js"></script>-->
+</body>
+
+</html>

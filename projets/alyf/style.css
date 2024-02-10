@@ -1,0 +1,105 @@
+
+
+
+/* vaaiables */
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap');
+
+/*colors &font*/
+:root {
+    --first-color: #d475b0;
+    --second-color: #836c68;
+    --font-color:beige;
+    --bg-color: rgb(75, 73, 73);
+    --font-h2: 'Protest Riot', sans-serif;
+  }
+body {
+  text-align: center;
+  margin: 50px;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+}
+h1{
+  font-family: var(--font-h2);
+}
+.go-back {
+  cursor: pointer
+}
+.go-back i{
+  color: var(--first-color);
+}
+.go-back i:hover{
+  transform: translateY(-.25rem);
+
+}
+#taches p {
+  padding: 1%;
+}
+
+.video__icon i{
+  color: var(--first-color);
+  cursor: pointer;
+}
+.video__icon i:hover{
+  transform: translateY(-.25rem);
+
+}
+.list-main {
+  display: block;
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: 1rem;
+  align-items: center;
+
+}
+
+.gradient-list li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-left: 10px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-list li:hover {
+  border-left-color: var(--second-color);
+  transition: ease-in-out 0.5s;
+  font-weight: bold;
+  cursor: cell;
+
+  box-shadow: 0 0 10px 1px var(--first-color);
+ 
+}
+.video__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.responsive-video {
+  width: 100%; 
+  max-width: 640px; 
+  height: auto; 
+}
+
+
+
+
+/*angular projet*/
+#image-container {
+  max-width: 40rem;
+  margin: 0 auto;
+  border-radius: 16px;
+}
+
+#random-image {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 16px;
+}
